@@ -9,18 +9,18 @@ import { useToast } from "@/hooks/use-toast";
 const contactInfo = [{
   icon: Mail,
   title: "Email Us",
-  details: "info@techflow.com",
+  details: "info@infonexa.in | bhawesh.kumar@infonexa.in",
   description: "We'll respond within 24 hours"
 }, {
   icon: Phone,
   title: "Call Us",
-  details: "+1 (234) 567-890",
-  description: "Mon-Fri, 9am-6pm EST"
+  details: "9354146137",
+  description: "Mon-Fri, 9am-6pm IST"
 }, {
   icon: MapPin,
   title: "Visit Us",
-  details: "123 Tech Street",
-  description: "Silicon Valley, CA 94000"
+  details: "Karolbagh, New Delhi",
+  description: "Office location in New Delhi"
 }, {
   icon: Clock,
   title: "Business Hours",
@@ -64,7 +64,7 @@ const Contact = () => {
   };
   return <Layout>
       {/* Hero Banner */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden">
+      <section className="relative pt-20 pb-16 lg:pt-24 lg:pb-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
           backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`
@@ -124,7 +124,7 @@ const Contact = () => {
           <div className="text-center px-4">
             <MapPin className="w-10 h-10 text-muted-foreground mx-auto mb-3" />
             <p className="text-muted-foreground text-sm">Interactive map would be displayed here</p>
-            <p className="text-xs text-muted-foreground mt-1">123 Tech Street, Silicon Valley, CA 94000</p>
+            <p className="text-xs text-muted-foreground mt-1">Karolbagh, New Delhi</p>
           </div>
         </div>
       </section>

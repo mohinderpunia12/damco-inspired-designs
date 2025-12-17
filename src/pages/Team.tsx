@@ -37,7 +37,7 @@ const Team = () => {
   return (
     <Layout>
       {/* Hero Banner */}
-      <section className="relative pt-32 pb-20 lg:pt-40 lg:pb-28 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden">
+      <section className="relative pt-20 pb-16 lg:pt-24 lg:pb-24 bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 overflow-hidden">
         <div className="absolute inset-0 opacity-20">
           <div className="absolute inset-0" style={{
             backgroundImage: `url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.1'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E")`,
@@ -49,10 +49,10 @@ const Team = () => {
               Our People
             </p>
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-6">
-              Meet the Team
+              Meet the Infonexa Team
             </h1>
             <p className="text-lg text-white/70">
-              Meet the talented individuals who make TechFlow exceptional.
+              Meet the talented individuals who make Infonexa exceptional.
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ const Team = () => {
                 Our Culture
               </p>
               <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-foreground mb-6">
-                Life at TechFlow
+                Life at Infonexa
               </h2>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 We believe in fostering an environment where innovation thrives and every voice matters.

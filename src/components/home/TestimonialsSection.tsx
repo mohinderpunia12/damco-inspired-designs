@@ -8,21 +8,21 @@ const testimonials = [
     role: "CTO",
     company: "InnovateTech Corp",
     image: "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=150&h=150&fit=crop&crop=face",
-    content: "TechFlow transformed our entire IT infrastructure. Their cloud solutions helped us reduce costs by 40% while significantly improving our system performance.",
+    content: "Infonexa transformed our entire IT infrastructure. Their cloud solutions helped us reduce costs by 40% while significantly improving our system performance.",
   },
   {
     name: "Michael Chen",
     role: "CEO",
     company: "Global Dynamics",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face",
-    content: "The cybersecurity team at TechFlow is exceptional. They identified vulnerabilities we didn't know existed and implemented robust solutions that give us peace of mind.",
+    content: "The cybersecurity team at Infonexa is exceptional. They identified vulnerabilities we didn't know existed and implemented robust solutions that give us peace of mind.",
   },
   {
     name: "Emily Rodriguez",
     role: "Director of Operations",
     company: "Scale Solutions",
     image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=150&h=150&fit=crop&crop=face",
-    content: "Working with TechFlow has been a game-changer. Their AI automation solutions have streamlined our processes and freed up our team to focus on strategic initiatives.",
+    content: "Working with Infonexa has been a game-changer. Their AI automation solutions have streamlined our processes and freed up our team to focus on strategic initiatives.",
   },
 ];
 

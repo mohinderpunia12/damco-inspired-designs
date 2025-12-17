@@ -36,27 +36,37 @@ export const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12">
           {/* Company Info */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="w-10 h-10 hero-gradient rounded-lg flex items-center justify-center">
-                <span className="text-primary-foreground font-bold text-xl">T</span>
-              </div>
-              <span className="text-xl font-bold">TechFlow</span>
+            <Link to="/" className="inline-flex items-center mb-6">
+              <span className="text-2xl font-bold tracking-wide">Infonexa</span>
             </Link>
             <p className="text-primary-foreground/70 mb-6 max-w-sm">
               Empowering businesses with cutting-edge technology solutions. We transform ideas into reality through innovation and expertise.
             </p>
             <div className="space-y-3">
-              <a href="mailto:info@techflow.com" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="mailto:info@infonexa.in"
+                className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary transition-colors"
+              >
                 <Mail className="w-5 h-5" />
-                <span>info@techflow.com</span>
+                <span>info@infonexa.in</span>
               </a>
-              <a href="tel:+1234567890" className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary transition-colors">
+              <a
+                href="mailto:bhawesh.kumar@infonexa.in"
+                className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary transition-colors"
+              >
+                <Mail className="w-5 h-5" />
+                <span>bhawesh.kumar@infonexa.in</span>
+              </a>
+              <a
+                href="tel:9354146137"
+                className="flex items-center gap-3 text-primary-foreground/70 hover:text-primary transition-colors"
+              >
                 <Phone className="w-5 h-5" />
-                <span>+1 (234) 567-890</span>
+                <span>9354146137</span>
               </a>
               <div className="flex items-center gap-3 text-primary-foreground/70">
                 <MapPin className="w-5 h-5" />
-                <span>123 Tech Street, Silicon Valley, CA</span>
+                <span>Karolbagh, New Delhi</span>
               </div>
             </div>
           </div>
@@ -114,7 +124,7 @@ export const Footer = () => {
         {/* Bottom */}
         <div className="border-t border-primary-foreground/10 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-primary-foreground/50 text-sm">
-            © {new Date().getFullYear()} TechFlow. All rights reserved.
+            © {new Date().getFullYear()} Infonexa. All rights reserved.
           </p>
           <div className="flex items-center gap-4">
             {socialLinks.map((social) => (

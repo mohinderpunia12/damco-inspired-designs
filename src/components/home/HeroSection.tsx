@@ -48,7 +48,7 @@ export const HeroSection = () => {
   }, [emblaApi]);
 
   return (
-    <section className="relative min-h-[90vh] pt-20">
+    <section className="relative min-h-[85vh] pt-[3px]">
       <div className="overflow-hidden h-full" ref={emblaRef}>
         <div className="flex h-full">
           {slides.map((slide, index) => (
